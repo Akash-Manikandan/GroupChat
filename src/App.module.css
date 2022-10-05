@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+}
+.selected {
+  flex: 1;
+  padding: 10px;
+  color: #747bff;
+  border-bottom: 1px solid #747bff;
+}
+.notselected {
+  background-color: #191818;
+  flex: 1;
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  margin-top: 1px;
+  font-size: 18px;
+}
+.window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+.outer {
+  overflow-x: hidden;
+}

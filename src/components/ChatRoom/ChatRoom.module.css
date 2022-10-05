@@ -1,0 +1,18 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #242424;
+}
+.inner {
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 80px;
+}

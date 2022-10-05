@@ -1,0 +1,34 @@
+.container {
+  padding: 10px;
+}
+.messageBox {
+  margin-right: 50px;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.name {
+  color: #f46a4e;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+.name:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.message {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #000;
+  margin-top: 5px;
+}
+.time {
+  align-self: flex-end;
+  color: #1967d2;
+  font-size: 10px;
+  font-family: "Poppins";
+}
